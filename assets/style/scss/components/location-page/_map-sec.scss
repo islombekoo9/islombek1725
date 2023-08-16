@@ -1,0 +1,49 @@
+.map {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    background-image: url(../../images/world-map-desktop.png);
+    background-size: cover;
+    padding: 250px 0px;
+
+    h5 {
+        color: #495567;
+        text-align: center;
+        font-family: Space Mono;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: -1.071px;
+    }
+    
+    .newyork {
+        background-image: url(../../images/new-york-bg.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 22px 39.5px 38px 38.5px;
+        transform: translate(180px, -170px);
+    }
+
+    .london {
+        background-image: url(../../images/new-york-bg.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 22px 53px 38px 53px;
+        transform: translate(75px, -225px);
+    }
+    .yokohama {
+        background-image: url(../../images/new-york-bg.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 22px 39.5px 38px 38.5px;
+        transform: translate(260px, -160px);
+    }
+    .jakarta {
+        background-image: url(../../images/new-york-bg.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 22px 46px 38px 46px;
+        transform: translate(-82px, 28px);
+    }
+}
